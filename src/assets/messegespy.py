@@ -1,6 +1,6 @@
 # !usr\bin\activate
 # :using "utf-8":
 
-MinimalNumbersSymbols = "Пароль < 6 символов"
+MinimalNumbersSymbols = "Password < 6 characters"
 
-NoGenerationCategoriesSelected = "Категории не выбраны"
+NoGenerationCategoriesSelected = "No categories selected"
