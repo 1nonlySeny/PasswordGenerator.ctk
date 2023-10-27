@@ -17,4 +17,5 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 | `Changing the color scheme` |  | + |
 | `Change language` |  | + |
 | `Change theme` |  | + |
+
 ***Don't forget!*** The project is just getting underway. The best is yet to come!
