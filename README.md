@@ -22,7 +22,7 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 
 
 ### What do we use in addition?
-```
+```python
 import customtkinter as ctk
 import random as rnd
 from PIL import Image
