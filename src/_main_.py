@@ -64,7 +64,7 @@ class MainApp(ctk.CTk):
         self.digitsBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use numbers when generating a password?")
         self.digitsBox.place(x=25, y=80)
 
-        self.uppercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use capital letters \n when generating a password?
+        self.uppercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use capital letters \n when generating a password?")
         self.uppercaseBox.place(x=25, y=110)
 
         self.lowercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use lowercase letters \n when generating a password?")
@@ -73,7 +73,7 @@ class MainApp(ctk.CTk):
         self.punctuationBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE",  text="Should I use special characters \n when generating a password?")
         self.punctuationBox.place(x=25, y=180)
 
-        self.createBtn = ctk.CTkButton(self, width=70, height=40, text="Generate", fg_color="#906DDE", hover_color="#B56DDE", command=self.generate )
+        self.createBtn = ctk.CTkButton(self, width=105, height=40, text="Generate", fg_color="#906DDE", hover_color="#B56DDE", command=self.generate )
         self.createBtn.place(x=270, y=220)
 
         self.copyBtn = ctk.CTkButton(self, image=self.copyImg, text="", fg_color="#906DDE", hover_color="#B56DDE", width=40, height=40, command=lambda: pyperclip.copy(self.textresult.get()))
@@ -157,4 +157,3 @@ class MainApp(ctk.CTk):
 if __name__ == '__main__':
     app = MainApp()
     app.mainloop()
-
