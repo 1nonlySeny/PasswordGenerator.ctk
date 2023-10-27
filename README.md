@@ -13,3 +13,6 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 | `Selecting the number of characters` | + |  |
 | `Selection of criteria` | + |  |
 | `Select Special Characters` |  | + |
+| `Changing the color scheme` |  | + |
+| `Change language` |  | + |
+| `Change theme` |  | + |
