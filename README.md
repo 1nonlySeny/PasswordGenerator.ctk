@@ -19,3 +19,6 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 | `Change theme` |  | + |
 
 ***Don't forget!*** The project is just getting underway. The best is yet to come!
+
+
+### What do we use in addition?
