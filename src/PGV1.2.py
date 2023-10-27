@@ -58,28 +58,28 @@ class MainApp(ctk.CTk):
 
     def build(self):
         # $Build widgets$
-        self.mainEntry = ctk.CTkEntry(self, width=350, height=50, placeholder_text="Введите количество символов в пароле")
+        self.mainEntry = ctk.CTkEntry(self, width=350, height=50, placeholder_text="Enter the number of characters in the password")
         self.mainEntry.place(x=25, y=20)
 
-        self.digitsBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Использовать ли цифры при генерации пароля?")
+        self.digitsBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use numbers when generating a password?")
         self.digitsBox.place(x=25, y=80)
 
-        self.uppercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Использовать ли заглавные буквы \n при генерации пароля?")
+        self.uppercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use capital letters \n when generating a password?
         self.uppercaseBox.place(x=25, y=110)
 
-        self.lowercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Использовать ли строчные буквы \n при генерации пароля?")
+        self.lowercaseBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE", text="Should I use lowercase letters \n when generating a password?")
         self.lowercaseBox.place(x=25, y=145)
 
-        self.punctuationBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE",  text="Использовать ли специальные символы \n при генерации пароля?")
+        self.punctuationBox = ctk.CTkCheckBox(self, width=20, height=20, fg_color="#906DDE", hover_color="#B56DDE",  text="Should I use special characters \n when generating a password?")
         self.punctuationBox.place(x=25, y=180)
 
-        self.createBtn = ctk.CTkButton(self, width=70, height=40, text="Сгенерировать", fg_color="#906DDE", hover_color="#B56DDE", command=self.generate )
+        self.createBtn = ctk.CTkButton(self, width=70, height=40, text="Generate", fg_color="#906DDE", hover_color="#B56DDE", command=self.generate )
         self.createBtn.place(x=270, y=220)
 
         self.copyBtn = ctk.CTkButton(self, image=self.copyImg, text="", fg_color="#906DDE", hover_color="#B56DDE", width=40, height=40, command=lambda: pyperclip.copy(self.textresult.get()))
         self.copyBtn.place(x=225, y=220)
 
-        self.textresult = ctk.CTkEntry(self, width=195, height=40, placeholder_text="Тут будет ваш пароль", text_color="GREEN", state="disabled")
+        self.textresult = ctk.CTkEntry(self, width=195, height=40, placeholder_text="This will be your password", text_color="GREEN", state="disabled")
         self.textresult.place(x=25, y=220)
 
 
@@ -92,7 +92,7 @@ class MainApp(ctk.CTk):
     
         # $Destroy and set the widget to display the result (I can't do it any other way)$
         self.textresult.destroy()
-        self.textresult = ctk.CTkEntry(self, width=195, height=40, placeholder_text="Тут будет ваш пароль", text_color="green")
+        self.textresult = ctk.CTkEntry(self, width=195, height=40, placeholder_text="This will be your password", text_color="green")
         self.textresult.place(x=25, y=220)
         self.textresult.configure(state="normal")
 
