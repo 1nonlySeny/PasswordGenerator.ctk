@@ -6,4 +6,4 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 
 
 # DESCRIPTION
-## What can our app do?
+## - What can our app do?
