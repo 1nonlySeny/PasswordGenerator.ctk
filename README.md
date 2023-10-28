@@ -5,6 +5,7 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 
 
 # Contents
+- Additional materials
 - Technologies we use
 - Getting started
 - Testing 
@@ -13,4 +14,12 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 - Project Team
 
   
-# Technologies we use
+# Additional materials
+We used the standard Python libraries along with additional materials
+- Standard Libraries:
+  - `python
+      import random as rnd`
+  - `python
+      import os`
+  - `python
+      import sys`
