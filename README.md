@@ -13,4 +13,4 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 - Project Team
 
   
-## Technologies we use
+# Technologies we use
