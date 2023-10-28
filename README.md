@@ -23,3 +23,13 @@ We used the standard Python libraries along with additional materials
       import os`
   - `python
       import sys`
+- Additional libraries:
+  - `python
+      import customtkinter as ctk`
+  - `python
+      from PIL import Image`
+  - `python
+      import pyperclip`
+  - `python
+      import ctypes`
+
