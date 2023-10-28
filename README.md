@@ -32,3 +32,6 @@ We used the standard Python libraries along with additional materials
   - `python
       import ctypes`
 
+
+# Getting started
+
