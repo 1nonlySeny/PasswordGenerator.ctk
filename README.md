@@ -11,3 +11,6 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 - Deploy CI/CD
 - To Do
 - Project Team
+
+  
+# Use
