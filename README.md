@@ -6,7 +6,6 @@ A simple password generator written in Python 3.12.0 using customtkinter. Here y
 
 # Contents
 - Additional materials
-- Technologies we use
 - Getting started
 - Testing 
 - Deploy CI/CD
